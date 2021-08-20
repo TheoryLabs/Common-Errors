@@ -1,0 +1,41 @@
+{
+	"name": "@theorylabs/common-errors",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Common Errors, thier properties (i.e. err.name, err.code, etc.), methods, classed counter-parts (i.e TypeError, AggregateError, etc.) and more in a Human-Readable format. Essentially provides an importable enum of Error 'things' to check against your Native JavaScript/Node Errors which often produce information that is notoriously tricky to debug without installing a slew of 3rd party tooling.",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TheoryLabs/Common-Errors.git"
+	},
+	"author": {
+		"name": "Branden Dane",
+		"email": "Dane@TheoryLabs.dev",
+		"url": "TheoryLabs.dev"
+	},
+	"main": "src/index.js",
+	"scripts": {
+		"demo": "node -r esm ./demo.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"error",
+		"errors",
+		"common",
+		"common-errors",
+		"system",
+		"system-errors",
+		"enums",
+		"native",
+		"constants",
+		"types",
+		"theorylabs",
+		"danetheory"
+	],
+	"devDependencies": {
+		"esm": "^3.2.25"
+	},
+	"dependencies": {
+		"superstruct": "^0.15.2"
+	}
+}
